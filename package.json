@@ -1,0 +1,27 @@
+{
+  "name": "sycle-test",
+  "version": "0.0.1",
+  "description": "Sycle test helpers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sycle/sycle-test.git"
+  },
+  "author": "Tao Yuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sycle/sycle-test/issues"
+  },
+  "homepage": "https://github.com/sycle/sycle-test",
+  "dependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.20.1",
+    "sycle": "sycle/sycle"
+  },
+  "devDependencies": {
+    "sycle-core": "sycle/sycle-core"
+  }
+}
