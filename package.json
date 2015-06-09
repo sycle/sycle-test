@@ -1,6 +1,6 @@
 {
   "name": "sycle-test",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Sycle test helpers",
   "main": "index.js",
   "scripts": {
@@ -18,10 +18,10 @@
   "homepage": "https://github.com/sycle/sycle-test",
   "dependencies": {
     "chai": "^1.9.1",
-    "mocha": "^1.20.1",
-    "sycle": "sycle/sycle"
+    "mocha": "^1.20.1"
   },
   "devDependencies": {
+    "sycle": "sycle/sycle",
     "sycle-core": "sycle/sycle-core"
   }
 }
