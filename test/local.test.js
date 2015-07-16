@@ -6,7 +6,6 @@ describe('helpers', function () {
 
     var sapp = sycle();
     sapp.registry.define('xxx-test-model', {crud: true});
-    sapp.phase(sycle.boot.module('sycle-core'));
     sapp.phase(sycle.boot.database());
     sapp.phase(function () {
         sapp.use(sapp.dispatcher);
